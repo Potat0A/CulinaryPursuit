@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\CulinaryPursuit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|d:\\github\\culinarypursuit\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\customercheckout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customercheckout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\Github\\CulinaryPursuit\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-01-10T16:02:51.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerCheckout.aspx.cs",
+              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\CustomerCheckout.aspx.cs",
+              "RelativeDocumentMoniker": "CustomerCheckout.aspx.cs",
+              "ToolTip": "D:\\Github\\CulinaryPursuit\\CustomerCheckout.aspx.cs",
+              "RelativeToolTip": "CustomerCheckout.aspx.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwEIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T14:18:57.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "admin.Master",
+              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\admin.Master",
+              "RelativeDocumentMoniker": "admin.Master",
+              "ToolTip": "D:\\Github\\CulinaryPursuit\\admin.Master",
+              "RelativeToolTip": "admin.Master",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-07T21:00:43.663Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 111,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

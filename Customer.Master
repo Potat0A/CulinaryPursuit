@@ -1,0 +1,230 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="customer.master.cs" Inherits="CulinaryPursuit.CustomerMaster" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title><%: Page.Title %> | Culinary Pursuit</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #fafafa;
+        }
+
+        /* 🎯 NAVBAR */
+        .navbar {
+            background: white;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar-brand {
+            font-weight: 900;
+            font-size: 1.8rem;
+            background: linear-gradient(135deg, #ff3c00, #ff9a3c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-link {
+            color: #333;
+            font-weight: 600;
+            margin: 0 15px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .nav-link:hover {
+            color: #ff3c00;
+            transform: translateY(-2px);
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background: #ff3c00;
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .btn-profile {
+            background: linear-gradient(135deg, #ff3c00, #ff9a3c);
+            color: white;
+            font-weight: 700;
+            padding: 10px 25px;
+            border-radius: 25px;
+            border: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255,60,0,0.3);
+        }
+
+        .btn-profile:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255,60,0,0.4);
+        }
+
+        .dropdown-menu {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            padding: 10px;
+        }
+
+        .dropdown-item {
+            border-radius: 10px;
+            padding: 10px 15px;
+            margin: 5px 0;
+            transition: all 0.3s ease;
+        }
+
+        .dropdown-item:hover {
+            background: rgba(255,60,0,0.1);
+            color: #ff3c00;
+            transform: translateX(5px);
+        }
+
+        /* 🎨 FOOTER */
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 40px 0 20px;
+            margin-top: 80px;
+        }
+
+        footer h5 {
+            color: #ff9a3c;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        footer a {
+            color: #ecf0f1;
+            text-decoration: none;
+            display: block;
+            margin: 8px 0;
+            transition: all 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #ff9a3c;
+            transform: translateX(5px);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            margin-top: 30px;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        /* 📱 RESPONSIVE */
+        @media (max-width: 768px) {
+            .navbar-brand {
+                font-size: 1.4rem;
+            }
+            .nav-link {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- 🎯 NAVIGATION -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="CustomerHome.aspx">&#127869; Culinary Pursuit</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="CustomerHome.aspx">&#127968; Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="CustomerOrdering.aspx">&#127869; Order Food</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="CustomerCheckout.aspx">&#128722; Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="MyOrders.aspx">&#128230; My Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Rewards.aspx">&#127942; Rewards</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown">
+                                &#128100; <asp:Label ID="lblNavName" runat="server" />
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="CustomerProfile.aspx">&#128100; My Profile</a></li>
+                                <li><a class="dropdown-item" href="Favorites.aspx">&#10084; Favorites</a></li>
+                                <li><a class="dropdown-item" href="Rewards.aspx">&#127942; Rewards</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><asp:LinkButton ID="btnLogout" runat="server" CssClass="dropdown-item" OnClick="btnLogout_Click">&#128682; Logout</asp:LinkButton></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 📄 MAIN CONTENT -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <!-- 🎨 FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>&#127869; Culinary Pursuit</h5>
+                        <p>Connecting food lovers with Singapore's best home chefs.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Quick Links</h5>
+                        <a href="CustomerHome.aspx">Home</a>
+                        <a href="CustomerOrdering.aspx">Order Food</a>
+                        <a href="CustomerCheckout.aspx">Cart</a>
+                        <a href="MyOrders.aspx">My Orders</a>
+                        <a href="CustomerProfile.aspx">My Profile</a>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Support</h5>
+                        <a href="Help.aspx">Help Center</a>
+                        <a href="Contact.aspx">Contact Us</a>
+                        <a href="Terms.aspx">Terms of Service</a>
+                        <a href="Privacy.aspx">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Culinary Pursuit. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

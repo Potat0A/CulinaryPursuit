@@ -1,0 +1,624 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="public.master.cs" Inherits="CulinaryPursuit.Site" %>
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Culinary Pursuit | Discover Home-Cooked Goodness</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        /* ═══════════════════════════════════════════════════════════
+           🎨 BASE STYLES
+        ═══════════════════════════════════════════════════════════ */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background: linear-gradient(135deg, #fffaf5 0%, #ffe8d6 50%, #ffd6b8 100%);
+            background-attachment: fixed;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* 🎈 Floating Background Elements */
+        .bg-decoration {
+            position: fixed;
+            pointer-events: none;
+            opacity: 0.05;
+            z-index: 0;
+        }
+
+        .bg-food {
+            font-size: 8rem;
+            animation: floatRandom 25s ease-in-out infinite;
+        }
+
+        @keyframes floatRandom {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            25% { transform: translate(50px, -50px) rotate(45deg); }
+            50% { transform: translate(-30px, -80px) rotate(90deg); }
+            75% { transform: translate(40px, -40px) rotate(180deg); }
+        }
+
+        .bg-food:nth-child(1) { top: 10%; left: 5%; animation-delay: 0s; }
+        .bg-food:nth-child(2) { top: 60%; right: 10%; animation-delay: 5s; }
+        .bg-food:nth-child(3) { bottom: 20%; left: 15%; animation-delay: 10s; }
+        .bg-food:nth-child(4) { top: 40%; right: 20%; animation-delay: 15s; }
+
+        /* ═══════════════════════════════════════════════════════════
+           🧭 ENHANCED NAVBAR
+        ═══════════════════════════════════════════════════════════ */
+        
+        .navbar {
+            background: rgba(255, 255, 255, 0.95) !important;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            padding: 1.2rem 2rem;
+            border-bottom: 3px solid transparent;
+            border-image: linear-gradient(90deg, #f76b1c, #ff9f4d) 1;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            animation: slideDown 0.5s ease-out;
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-100px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        /* Animated Logo */
+        .navbar-brand {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: 1.8rem;
+            background: linear-gradient(135deg, #f76b1c 0%, #ff9f4d 50%, #f76b1c 100%);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradientFlow 3s linear infinite;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        @keyframes gradientFlow {
+            to { background-position: 200% center; }
+        }
+
+        .navbar-brand:hover {
+            transform: scale(1.05) rotate(-2deg);
+            filter: drop-shadow(0 5px 10px rgba(247, 107, 28, 0.3));
+        }
+
+        .navbar-brand .logo-icon {
+            display: inline-block;
+            animation: bounce 2s ease-in-out infinite;
+            font-size: 1.6rem;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+
+        /* Enhanced Nav Links */
+        .nav-link {
+            color: #333 !important;
+            font-weight: 600;
+            font-size: 1rem;
+            margin: 0 8px;
+            padding: 8px 20px !important;
+            border-radius: 25px;
+            transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .nav-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(247, 107, 28, 0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .nav-link:hover::before {
+            left: 100%;
+        }
+
+        .nav-link:hover {
+            color: #f76b1c !important;
+            background: rgba(247, 107, 28, 0.1);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(247, 107, 28, 0.2);
+        }
+
+        .nav-link.active {
+            background: linear-gradient(135deg, #f76b1c, #ff9f4d);
+            color: white !important;
+            box-shadow: 0 5px 20px rgba(247, 107, 28, 0.4);
+            transform: translateY(-2px);
+        }
+
+        /* CTA Button in Navbar */
+        .btn-nav-cta {
+            background: linear-gradient(135deg, #f76b1c, #ff9f4d);
+            color: white !important;
+            font-weight: 700;
+            padding: 10px 25px !important;
+            border-radius: 50px;
+            box-shadow: 0 6px 20px rgba(247, 107, 28, 0.3);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            animation: pulse 3s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 6px 20px rgba(247, 107, 28, 0.3); }
+            50% { box-shadow: 0 6px 30px rgba(247, 107, 28, 0.6); }
+        }
+
+        .btn-nav-cta:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 10px 30px rgba(247, 107, 28, 0.5);
+            background: linear-gradient(135deg, #ff9f4d, #f76b1c);
+        }
+
+        /* Mobile Toggle Button */
+        .navbar-toggler {
+            border: 2px solid #f76b1c;
+            padding: 8px 12px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .navbar-toggler:hover {
+            background: rgba(247, 107, 28, 0.1);
+            transform: rotate(90deg);
+        }
+
+        .navbar-toggler:focus {
+            box-shadow: 0 0 0 4px rgba(247, 107, 28, 0.2);
+        }
+
+        /* ═══════════════════════════════════════════════════════════
+           📄 CONTENT WRAPPER
+        ═══════════════════════════════════════════════════════════ */
+        
+        .content-wrapper {
+            position: relative;
+            z-index: 1;
+            min-height: calc(100vh - 300px);
+        }
+
+        /* ═══════════════════════════════════════════════════════════
+           🦶 ENHANCED FOOTER
+        ═══════════════════════════════════════════════════════════ */
+        
+        footer {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
+            background-size: 200% 200%;
+            animation: gradientShift 10s ease infinite;
+            color: #fff;
+            padding: 60px 0 20px;
+            margin-top: 80px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        /* Footer Decoration */
+        footer::before {
+            content: '🍽️';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.05;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-15deg);
+            animation: rotate 30s linear infinite;
+        }
+
+        @keyframes rotate {
+            from { transform: translate(-50%, -50%) rotate(-15deg); }
+            to { transform: translate(-50%, -50%) rotate(345deg); }
+        }
+
+        .footer-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .footer-brand {
+            font-size: 2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #f76b1c, #ff9f4d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+            display: inline-block;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .footer-description {
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .footer-links a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 5px 10px;
+        }
+
+        .footer-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: #f76b1c;
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+
+        .footer-links a:hover {
+            color: #f76b1c;
+            transform: translateY(-3px);
+        }
+
+        .footer-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Social Icons */
+        .footer-social {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .social-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: white;
+            text-decoration: none;
+            transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            border: 2px solid transparent;
+        }
+
+        .social-icon:hover {
+            background: linear-gradient(135deg, #f76b1c, #ff9f4d);
+            transform: translateY(-8px) rotate(360deg);
+            box-shadow: 0 10px 25px rgba(247, 107, 28, 0.4);
+            border-color: white;
+        }
+
+        .footer-bottom {
+            border-top: 2px solid rgba(255, 255, 255, 0.1);
+            padding-top: 25px;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.95rem;
+        }
+
+        .footer-bottom a {
+            color: #f76b1c;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .footer-bottom a:hover {
+            color: #ff9f4d;
+            text-decoration: underline;
+        }
+
+        /* ═══════════════════════════════════════════════════════════
+           🎊 SCROLL TO TOP BUTTON
+        ═══════════════════════════════════════════════════════════ */
+        
+        .scroll-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 55px;
+            height: 55px;
+            background: linear-gradient(135deg, #f76b1c, #ff9f4d);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 8px 25px rgba(247, 107, 28, 0.4);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            z-index: 999;
+            border: 3px solid white;
+        }
+
+        .scroll-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .scroll-to-top:hover {
+            transform: translateY(-10px) rotate(360deg);
+            box-shadow: 0 12px 35px rgba(247, 107, 28, 0.6);
+        }
+
+        .scroll-to-top::before {
+            content: '↑';
+            animation: arrowBounce 1.5s ease-in-out infinite;
+        }
+
+        @keyframes arrowBounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        /* ═══════════════════════════════════════════════════════════
+           📱 RESPONSIVE
+        ═══════════════════════════════════════════════════════════ */
+        
+        @media (max-width: 992px) {
+            .navbar {
+                padding: 1rem 1.5rem;
+            }
+
+            .navbar-brand {
+                font-size: 1.5rem;
+            }
+
+            .nav-link {
+                margin: 5px 0;
+                text-align: center;
+            }
+
+            .footer-brand {
+                font-size: 1.5rem;
+            }
+
+            .bg-food {
+                font-size: 5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar-brand {
+                font-size: 1.3rem;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .scroll-to-top {
+                width: 45px;
+                height: 45px;
+                bottom: 20px;
+                right: 20px;
+            }
+
+            .bg-food:nth-child(n+3) {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Background Decorations -->
+        <div class="bg-decoration bg-food">🍕</div>
+        <div class="bg-decoration bg-food">🍔</div>
+        <div class="bg-decoration bg-food">🍜</div>
+        <div class="bg-decoration bg-food">🥘</div>
+
+        <!-- Enhanced Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="Landing.aspx">
+                    <span class="logo-icon">🍲</span>
+                    <span>Culinary Pursuit</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="Landing.aspx">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Features.aspx">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Browse.aspx">Browse Chefs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Contact.aspx">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link btn-nav-cta" href="Login.aspx">🚀 Get Started</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Content -->
+        <div class="content-wrapper">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Enhanced Footer -->
+        <footer>
+            <div class="container footer-content">
+                <div class="footer-brand">🍲 Culinary Pursuit</div>
+                <p class="footer-description">
+                    Connecting Singapore's passionate home chefs with food lovers. 
+                    Discover authentic, homemade flavours in your neighborhood.
+                </p>
+                
+                <div class="footer-links">
+                    <a href="About.aspx">About Us</a>
+                    <a href="HowItWorks.aspx">How It Works</a>
+                    <a href="ForChefs.aspx">For Chefs</a>
+                    <a href="Support.aspx">Support</a>
+                    <a href="Careers.aspx">Careers</a>
+                </div>
+
+                <div class="footer-social">
+                    <a href="#" class="social-icon" aria-label="Facebook">📘</a>
+                    <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                    <a href="#" class="social-icon" aria-label="Twitter">🐦</a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">💼</a>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Culinary Pursuit | 
+                       <a href="Privacy.aspx">Privacy Policy</a> | 
+                       <a href="Terms.aspx">Terms of Service</a>
+                    </p>
+                    <p style="margin-top: 10px;">Made with ❤️ in Singapore</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scroll to Top Button -->
+        <div class="scroll-to-top" id="scrollToTop"></div>
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // 🎯 Active Nav Link Highlighting
+        document.addEventListener('DOMContentLoaded', () => {
+            const currentPage = window.location.pathname.split('/').pop();
+            document.querySelectorAll('.nav-link').forEach(link => {
+                if (link.getAttribute('href') === currentPage) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // 📜 Scroll to Top Button
+        const scrollBtn = document.getElementById('scrollToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollBtn.classList.add('visible');
+            } else {
+                scrollBtn.classList.remove('visible');
+            }
+        });
+
+        scrollBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // 🎨 Navbar Background Change on Scroll
+        const navbar = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 50) {
+                navbar.style.boxShadow = '0 8px 30px rgba(0,0,0,0.15)';
+                navbar.style.padding = '0.8rem 2rem';
+            } else {
+                navbar.style.boxShadow = '0 4px 20px rgba(0,0,0,0.08)';
+                navbar.style.padding = '1.2rem 2rem';
+            }
+        });
+
+        // ✨ Add Hover Sound Effect (Optional - Comment out if not needed)
+        document.querySelectorAll('.nav-link, .social-icon, .btn-nav-cta').forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                // Can add sound effect here if desired
+                el.style.transition = 'all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55)';
+            });
+        });
+
+        // 🎊 Easter Egg: Click logo 5 times for confetti
+        let logoClicks = 0;
+        document.querySelector('.navbar-brand').addEventListener('click', (e) => {
+            logoClicks++;
+            if (logoClicks === 5) {
+                createConfetti();
+                logoClicks = 0;
+            }
+        });
+
+        function createConfetti() {
+            const emojis = ['🎉', '🎊', '✨', '⭐', '🌟', '💫'];
+            for (let i = 0; i < 30; i++) {
+                const confetti = document.createElement('div');
+                confetti.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+                confetti.style.cssText = `
+                    position: fixed;
+                    top: -50px;
+                    left: ${Math.random() * 100}%;
+                    font-size: 2rem;
+                    z-index: 9999;
+                    pointer-events: none;
+                    animation: confettiFall 3s ease-out forwards;
+                `;
+                document.body.appendChild(confetti);
+                setTimeout(() => confetti.remove(), 3000);
+            }
+        }
+
+        // Add confetti animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes confettiFall {
+                to {
+                    transform: translateY(100vh) rotate(720deg);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>

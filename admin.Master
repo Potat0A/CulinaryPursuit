@@ -1,0 +1,200 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.Master.cs"
+    Inherits="CulinaryPursuit.Admin" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel | Culinary Pursuit</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            background: #f5f7fb;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sidebar {
+            width: 260px;
+            min-height: 100vh;
+            background: linear-gradient(180deg, #ff8c42, #ff5c5c);
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+        }
+
+        .sidebar h4 {
+            font-weight: 800;
+            margin-bottom: 5px;
+        }
+
+        .sidebar-brand {
+            padding: 25px 20px 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            margin-bottom: 10px;
+        }
+
+        .sidebar-brand p {
+            opacity: 0.9;
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        .sidebar-nav {
+            padding: 10px 15px;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 12px 15px;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-bottom: 8px;
+            transition: all 0.2s ease;
+            font-weight: 500;
+        }
+
+        .sidebar a:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateX(3px);
+        }
+
+        .sidebar a.active {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .sidebar hr {
+            opacity: 0.3;
+            margin: 15px 0;
+        }
+
+        .content {
+            margin-left: 280px;
+            padding: 30px;
+            max-width: calc(100vw - 280px);
+            overflow-x: hidden;
+        }
+
+        .topbar {
+            background: white;
+            padding: 15px 25px;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .topbar h5 {
+            margin: 0;
+            color: #333;
+            font-weight: 700;
+        }
+
+        .topbar .admin-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .topbar .admin-email {
+            font-weight: 600;
+            color: #ff5c5c;
+        }
+
+        .topbar .admin-avatar {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #ff8c42, #ff5c5c);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        .logout-btn {
+            color: white !important;
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.3);
+            padding: 10px 20px;
+            border-radius: 8px;
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .logout-btn:hover {
+            background: rgba(255,255,255,0.25);
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+
+<body>
+<form id="form1" runat="server">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h4>&#128295; Admin Panel</h4>
+            <p>Culinary Pursuit</p>
+        </div>
+
+        <div class="sidebar-nav">
+            <a href="AdminDashboard.aspx">&#128202; Dashboard</a>
+            <a href="AdminApproval.aspx">&#9989; Restaurant Approvals</a>
+            <a href="AdminAnalytics.aspx">&#128200; Analytics</a>
+            <a href="AdminPlatformFees.aspx">&#128176; Platform Fees</a>
+            <a href="AdminRewards.aspx">&#127942; Manage Rewards</a>
+            <a href="AddReward.aspx">&#10133; Add New Reward</a>
+            <a href="AdminViewRedemptions.aspx">&#127873; View Redemptions</a>
+
+            <hr />
+
+            <asp:LinkButton ID="btnLogout" runat="server"
+                CssClass="logout-btn"
+                OnClick="btnLogout_Click">
+                &#128682; Logout
+            </asp:LinkButton>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT WRAPPER -->
+    <div class="content">
+
+        <!-- TOP BAR -->
+        <div class="topbar">
+            <h5>Admin Control Panel</h5>
+
+            <div class="admin-info">
+                <asp:Label ID="lblAdminEmail"
+                           runat="server"
+                           CssClass="admin-email" />
+
+                <div class="admin-avatar">
+                    <asp:Label ID="lblAdminInitial" runat="server" />
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE CONTENT -->
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+    </div>
+
+</form>
+</body>
+</html>
