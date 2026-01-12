@@ -499,47 +499,46 @@
     <section class="bg-light text-center">
         <div class="container">
             <h2 class="section-title scroll-reveal">Featured Home Chefs 👨‍🍳</h2>
-            <div class="row g-4">
-                <div class="col-md-4 col-sm-12">
-                    <div class="card chef-card scroll-reveal" style="transition-delay: 0.1s;">
-                        <div class="chef-badge">⭐ Featured</div>
-                        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=400" class="card-img-top" alt="Laksa" />
-                        <div class="card-body">
-                            <h5>Auntie Mei's Laksa 🍜</h5>
-                            <p>Authentic Peranakan flavours from her kitchen.</p>
+
+            <asp:Repeater ID="rptFeaturedRestaurants" runat="server">
+                <ItemTemplate>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="card chef-card scroll-reveal">
+                            <div class="chef-badge">⭐ Featured</div>
+
+                            <asp:Image
+                                runat="server"
+                                CssClass="card-img-top"
+                                ImageUrl='<%# Eval("ImageUrl") %>'
+                                AlternateText="Restaurant Image" />
+
+                            <div class="card-body">
+                                <h5><%# Eval("Name") %></h5>
+                                <p><%# Eval("Description") %></p>
+                            </div>
                         </div>
                     </div>
+                </ItemTemplate>
+
+                <HeaderTemplate>
+                    <div class="row g-4">
+                </HeaderTemplate>
+
+                <FooterTemplate>
                 </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card chef-card scroll-reveal" style="transition-delay: 0.2s;">
-                        <div class="chef-badge">🔥 Hot</div>
-                        <img src="https://images.unsplash.com/photo-1617196034796-73dfa83b9b33?w=400" class="card-img-top" alt="Curry" />
-                        <div class="card-body">
-                            <h5>The Curry Corner 🍛</h5>
-                            <p>Spice up your day with aromatic Indian curries and roti.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card chef-card scroll-reveal" style="transition-delay: 0.3s;">
-                        <div class="chef-badge">💝 Popular</div>
-                        <img src="https://images.unsplash.com/photo-1565958011705-44e211a19f9a?w=400" class="card-img-top" alt="Pastry" />
-                        <div class="card-body">
-                            <h5>Bakeology by Sam 🧁</h5>
-                            <p>Freshly baked pastries that melt in your mouth.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                </FooterTemplate>
+            </asp:Repeater>
+
         </div>
     </section>
+
 
     <!-- 💼 JOIN SECTION -->
     <section class="join-section text-center">
         <div class="container py-5 scroll-reveal">
             <h2>Are You a Home Chef? 👨‍🍳</h2>
             <p class="fs-5">Join our platform to share your passion and reach customers across Singapore.</p>
-            <a href="SignupSeller.aspx" class="btn btn-lg">✨ Join as a Seller</a>
+            <a href="Signup.aspx" class="btn btn-lg">✨ Join as a Seller</a>
         </div>
     </section>
 

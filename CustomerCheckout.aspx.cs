@@ -175,6 +175,8 @@ namespace CulinaryPursuit
 
         protected void btnPlaceOrder_Click(object sender, EventArgs e)
         {
+            int lastOrderID = 0;
+
             if (string.IsNullOrWhiteSpace(txtDeliveryAddress.Text))
             {
                 ShowAlert("❌ Please enter a delivery address!");
@@ -191,16 +193,15 @@ namespace CulinaryPursuit
                 {
                     try
                     {
-                        // Get cart items grouped by restaurant
                         DataTable cartData = GetCartData(conn, tx);
 
                         if (cartData.Rows.Count == 0)
                         {
+                            tx.Rollback();
                             ShowAlert("❌ Your cart is empty!");
                             return;
                         }
 
-                        // Group by restaurant and create separate orders
                         var restaurantGroups = cartData.AsEnumerable()
                             .GroupBy(row => row.Field<int>("RestaurantID"));
 
@@ -210,32 +211,28 @@ namespace CulinaryPursuit
                             decimal orderTotal = restaurantGroup.Sum(row => row.Field<decimal>("Subtotal"));
                             decimal finalAmount = orderTotal + DELIVERY_FEE;
 
-                            // Create order
                             int orderID = CreateOrder(conn, tx, restaurantID, finalAmount);
+                            lastOrderID = orderID;
 
-                            // Create order items
                             foreach (DataRow item in restaurantGroup)
                             {
                                 CreateOrderItem(conn, tx, orderID, item);
                             }
 
-                            // Create payment record
                             CreatePayment(conn, tx, orderID, finalAmount);
-
-                            // Create platform fee record (restaurant owes platform)
                             CreatePlatformFee(conn, tx, restaurantID, orderID, orderTotal);
                         }
 
-                        // Clear cart
                         ClearCart(conn, tx);
-
-                        // Update customer stats
                         UpdateCustomerStats(conn, tx);
 
+                        // ✅ COMMIT ONCE
                         tx.Commit();
 
-                        ShowAlert("🎉 Order placed successfully!");
-                        Response.AddHeader("REFRESH", "2;URL=CustomerOrdering.aspx");
+                        // ✅ Redirect SAFELY
+                        Response.Redirect($"ReviewPrompt.aspx?orderId={lastOrderID}", false);
+                        Context.ApplicationInstance.CompleteRequest();
+                        return;
                     }
                     catch (Exception ex)
                     {
@@ -245,6 +242,7 @@ namespace CulinaryPursuit
                 }
             }
         }
+
 
         private DataTable GetCartData(SqlConnection conn, SqlTransaction tx)
         {

@@ -161,7 +161,8 @@
             <a href="AdminRewards.aspx">&#127942; Manage Rewards</a>
             <a href="AddReward.aspx">&#10133; Add New Reward</a>
             <a href="AdminViewRedemptions.aspx">&#127873; View Redemptions</a>
-
+            <a href="AdminReviews.aspx">&#128203; View Reviews</a>
+            <a href="AdminViewPosts.aspx">&#128240; View Posts</a>
             <hr />
 
             <asp:LinkButton ID="btnLogout" runat="server"

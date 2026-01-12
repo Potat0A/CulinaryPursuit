@@ -103,20 +103,4 @@
         </div>
     </div>
 
-    <!-- Quick Actions -->
-    <h3 class="mt-5 mb-3" style="font-weight:700;">Quick Actions</h3>
-    <div class="row">
-        <div class="col-md-3">
-            <a href="AdminApproval.aspx" class="quick-btn">Review Chef Applications</a>
-        </div>
-        <div class="col-md-3">
-            <a href="AdminPlatformFees.aspx" class="quick-btn">Manage Platform Fees</a>
-        </div>
-        <div class="col-md-3">
-            <a href="AdminAnalytics.aspx" class="quick-btn">View Analytics</a>
-        </div>
-        <div class="col-md-3">
-            <a href="Logout.aspx" class="quick-btn">Logout</a>
-        </div>
-    </div>
 </asp:Content>

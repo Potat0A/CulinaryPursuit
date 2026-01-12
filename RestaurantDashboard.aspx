@@ -55,33 +55,6 @@
 
     </div>
 
-    <!-- QUICK ACTIONS -->
-    <h4 class="mt-5 mb-3">⚡ Quick Actions</h4>
-
-    <div class="row">
-        <div class="col-md-3">
-            <a class="btn btn-primary w-100 py-3" href="ChefMenu.aspx">
-                🍽️ Manage Menu
-            </a>
-        </div>
-
-        <div class="col-md-3">
-            <a class="btn btn-primary w-100 py-3" href="ChefOrders.aspx">
-                📦 View Orders
-            </a>
-        </div>
-
-        <div class="col-md-3">
-            <a class="btn btn-primary w-100 py-3" href="ChefChat.aspx">
-                💬 Chat
-            </a>
-        </div>
-
-        <div class="col-md-3">
-            <a class="btn btn-primary w-100 py-3" href="ChefAnalytics.aspx">
-                📊 Analytics
-            </a>
-        </div>
-    </div>
+    
 
 </asp:Content>

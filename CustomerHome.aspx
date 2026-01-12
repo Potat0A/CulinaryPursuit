@@ -223,7 +223,7 @@
         <div class="container" style="position: relative; z-index: 10;">
             <h1 class="hero-title">Welcome back, <asp:Label ID="lblCustomerName" runat="server" />! 🍲</h1>
             <p class="hero-subtitle">Ready to discover your next favorite meal?</p>
-            <a href="BrowseChefs.aspx" class="btn btn-cta">🔍 Browse Chefs</a>
+            <a href="CustomerOrdering.aspx" class="btn btn-cta">🔍 Browse Chefs</a>
         </div>
 
         <div class="wave"></div>
@@ -233,44 +233,49 @@
     <!-- 👩‍🍳 FEATURED HOME CHEFS -->
     <section class="bg-light text-center">
         <div class="container">
-            <h2 class="section-title">Featured Home Chefs 👨‍🍳</h2>
-            <div class="row g-4">
-                <div class="col-md-4 col-sm-12">
-                    <div class="card">
-                        <div class="chef-badge">⭐ Featured</div>
-                        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=400" class="card-img-top" alt="Laksa" />
-                        <div class="card-body">
-                            <h5>Auntie Mei's Laksa 🍜</h5>
-                            <p>Authentic Peranakan flavours from her kitchen.</p>
-                            <a href="ChefProfile.aspx?id=1" class="btn btn-sm" style="background:#ff3c00;color:white;border-radius:20px;">View Menu</a>
+            <h2 class="section-title scroll-reveal">Featured Home Chefs 👨‍🍳</h2>
+
+            <asp:Repeater ID="rptFeaturedRestaurants" runat="server">
+                <ItemTemplate>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="card chef-card scroll-reveal">
+                            <div class="chef-badge">⭐ Featured</div>
+
+                            <asp:Image
+                                runat="server"
+                                CssClass="card-img-top"
+                                ImageUrl='<%# Eval("ImageUrl") %>'
+                                AlternateText="Restaurant Image" />
+
+                            <div class="card-body">
+                                <h5><%# Eval("Name") %></h5>
+                                <p><%# Eval("Description") %></p>
+                            </div>
                         </div>
                     </div>
+                </ItemTemplate>
+
+                <HeaderTemplate>
+                    <div class="row g-4">
+                </HeaderTemplate>
+
+                <FooterTemplate>
                 </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card">
-                        <div class="chef-badge">🔥 Hot</div>
-                        <img src="https://images.unsplash.com/photo-1617196034796-73dfa83b9b33?w=400" class="card-img-top" alt="Curry" />
-                        <div class="card-body">
-                            <h5>The Curry Corner 🍛</h5>
-                            <p>Spice up your day with aromatic Indian curries.</p>
-                            <a href="ChefProfile.aspx?id=2" class="btn btn-sm" style="background:#ff3c00;color:white;border-radius:20px;">View Menu</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card">
-                        <div class="chef-badge">💝 Popular</div>
-                        <img src="https://images.unsplash.com/photo-1565958011705-44e211a19f9a?w=400" class="card-img-top" alt="Pastry" />
-                        <div class="card-body">
-                            <h5>Bakeology by Sam 🧁</h5>
-                            <p>Freshly baked pastries that melt in your mouth.</p>
-                            <a href="ChefProfile.aspx?id=3" class="btn btn-sm" style="background:#ff3c00;color:white;border-radius:20px;">View Menu</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                </FooterTemplate>
+            </asp:Repeater>
+
         </div>
     </section>
+
+
+                <FooterTemplate>
+                </div>
+                </FooterTemplate>
+            </asp:Repeater>
+
+        </div>
+    </section>
+
 
     <!-- 🎯 QUICK ACTIONS -->
     <section class="bg-white text-center">
@@ -286,7 +291,7 @@
                     </a>
                 </div>
                 <div class="col-md-3">
-                    <a href="MyOrders.aspx" class="card text-decoration-none">
+                    <a href="CustomerOrdering.aspx" class="card text-decoration-none">
                         <div class="card-body">
                             <div style="font-size:3rem;">📦</div>
                             <h5 class="mt-3">My Orders</h5>
@@ -294,10 +299,10 @@
                     </a>
                 </div>
                 <div class="col-md-3">
-                    <a href="Favorites.aspx" class="card text-decoration-none">
+                    <a href="CustomerMyReviews.aspx" class="card text-decoration-none">
                         <div class="card-body">
                             <div style="font-size:3rem;">❤️</div>
-                            <h5 class="mt-3">Favorites</h5>
+                            <h5 class="mt-3"> My Reviews</h5>
                         </div>
                     </a>
                 </div>

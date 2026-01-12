@@ -20,6 +20,14 @@
     .story-title{font-weight:700;color:#f76b1c;margin-bottom:10px;display:flex;align-items:center;gap:8px;}
     .char-counter{text-align:right;font-size:0.85rem;color:#6c757d;margin-top:5px;}
     @media (max-width:768px){.form-row{grid-template-columns:1fr;}}
+
+    .validation {
+    color: #dc3545;
+    font-size: 0.85rem;
+    margin-top: 6px;
+    display: block;
+}
+
 </style>
 
 <div class="signup-container">
@@ -49,8 +57,40 @@
 
                 <div class="form-group">
                     <label class="form-label">Phone Number *</label>
-                    <asp:TextBox ID="txtChefPhone" runat="server" CssClass="form-control" placeholder="+65 9123 4567" required />
+
+                    <asp:TextBox
+                        ID="txtChefPhone"
+                        runat="server"
+                        CssClass="form-control"
+                        placeholder="+6591234567" />
+
+                    <!-- Required -->
+                    <asp:RequiredFieldValidator
+                        runat="server"
+                        ControlToValidate="txtChefPhone"
+                        ErrorMessage="Phone number is required."
+                        CssClass="validation"
+                        Display="Dynamic" />
+
+                    <!-- Digits + optional + -->
+                    <asp:RegularExpressionValidator
+                        runat="server"
+                        ControlToValidate="txtChefPhone"
+                        ValidationExpression="^\+?[0-9]+$"
+                        ErrorMessage="Phone number can only contain digits and an optional +."
+                        CssClass="validation"
+                        Display="Dynamic" />
+
+                    <!-- Length check -->
+                    <asp:CustomValidator
+                        runat="server"
+                        ControlToValidate="txtChefPhone"
+                        ErrorMessage="Phone number must be between 7 and 15 digits."
+                        CssClass="validation"
+                        Display="Dynamic"
+                        OnServerValidate="ValidatePhoneLength" />
                 </div>
+
             </div>
 
             <div class="form-group">
@@ -122,8 +162,37 @@
 
                 <div class="form-group">
                     <label class="form-label">Phone Number *</label>
-                    <asp:TextBox ID="txtPhone" runat="server" CssClass="form-control" placeholder="+65 8123 4567" required />
+
+                    <asp:TextBox
+                        ID="txtPhone"
+                        runat="server"
+                        CssClass="form-control"
+                        placeholder="+6581234567" />
+
+                    <asp:RequiredFieldValidator
+                        runat="server"
+                        ControlToValidate="txtPhone"
+                        ErrorMessage="Phone number is required."
+                        CssClass="validation"
+                        Display="Dynamic" />
+
+                    <asp:RegularExpressionValidator
+                        runat="server"
+                        ControlToValidate="txtPhone"
+                        ValidationExpression="^\+?[0-9]+$"
+                        ErrorMessage="Phone number can only contain digits and an optional +."
+                        CssClass="validation"
+                        Display="Dynamic" />
+
+                    <asp:CustomValidator
+                        runat="server"
+                        ControlToValidate="txtPhone"
+                        ErrorMessage="Phone number must be between 7 and 15 digits."
+                        CssClass="validation"
+                        Display="Dynamic"
+                        OnServerValidate="ValidatePhoneLength" />
                 </div>
+
             </div>
 
             <div class="form-group">

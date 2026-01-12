@@ -86,10 +86,41 @@
                     <asp:TextBox ID="txtPhone" runat="server" CssClass="form-control" />
                 </div>
 
-                <div class="col-md-6 mb-3">
-                    <label class="form-label">Opening Hours</label>
-                    <asp:TextBox ID="txtOpeningHours" runat="server" CssClass="form-control" />
-                </div>
+                <h5 class="mt-4">⏰ Opening Hours</h5>
+
+                <asp:Repeater ID="rptOpeningHours" runat="server">
+                    <ItemTemplate>
+                        <div class="row align-items-center mb-2">
+                            <div class="col-md-2 fw-bold">
+                                <%# Eval("Day") %>
+                            </div>
+
+                            <div class="col-md-2">
+                                <asp:CheckBox ID="chkClosed"
+                                              runat="server"
+                                              Text="Closed"
+                                              Checked='<%# Eval("Closed") %>' />
+                            </div>
+
+                            <div class="col-md-4">
+                                <asp:TextBox ID="txtOpen"
+                                             runat="server"
+                                             CssClass="form-control"
+                                             Text='<%# Eval("Open") %>'
+                                             placeholder="09:00" />
+                            </div>
+
+                            <div class="col-md-4">
+                                <asp:TextBox ID="txtClose"
+                                             runat="server"
+                                             CssClass="form-control"
+                                             Text='<%# Eval("Close") %>'
+                                             placeholder="18:00" />
+                            </div>
+                        </div>
+                    </ItemTemplate>
+                </asp:Repeater>
+
             </div>
 
             <div class="mb-3">

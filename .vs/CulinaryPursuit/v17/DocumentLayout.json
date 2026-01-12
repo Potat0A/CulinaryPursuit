@@ -1,155 +1,270 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github\\CulinaryPursuit\\",
+  "WorkspaceRootPath": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|d:\\github\\culinarypursuit\\restaurantdashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:restaurantdashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\customerhome.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customerhome.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\chefmenu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chefmenu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\landing.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:landing.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\customer.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customer.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\chefrestaurantprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chefrestaurantprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\chefrestaurantprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chefrestaurantprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\addmenuitem.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:addmenuitem.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\addmenuitem.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:addmenuitem.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\chef.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chef.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\restaurantdashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:restaurantdashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\CulinaryPursuit\\SQLQuery5.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery5.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\CulinaryPursuit\\SQLQuery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\adminapproval.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:adminapproval.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\customerprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customerprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.Customers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\CulinaryPursuit\\buildingeverything.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:buildingeverything.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\public.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:public.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\customerprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customerprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\chef.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chef.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\chefmenu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chefmenu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\customerhome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\customerhome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customerhome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\landing.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\landing.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:landing.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\adminapproval.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:adminapproval.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\landing.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:landing.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\customer.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customer.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\googlelogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:googlelogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|D:\\Github\\CulinaryPursuit\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\googlecallback.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:googlecallback.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\googlecallback.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:googlecallback.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\googlelogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:googlelogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\customer.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customer.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\customermyreviews.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customermyreviews.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\customermyreviews.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customermyreviews.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\editreview.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:editreview.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\editreview.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:editreview.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\chefreplyreview.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chefreplyreview.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\chefreplyreview.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chefreplyreview.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.Reviews.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\chefviewreviews.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chefviewreviews.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\restaurantreviews.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:restaurantreviews.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\restaurantdashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:restaurantdashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.Restaurants.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\chefrestaurantprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chefrestaurantprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\chefrestaurantprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chefrestaurantprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\restaurantreviews.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:restaurantreviews.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\communityfeed.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:communityfeed.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\communityfeed.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:communityfeed.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\customercreatepost.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customercreatepost.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\adminviewposts.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:adminviewposts.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\adminviewposts.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:adminviewposts.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\chef.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chef.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\adminreviews.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:adminreviews.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\customercheckout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customercheckout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\reviewprompt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:reviewprompt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\reviewprompt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:reviewprompt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\restaurantreviews.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:restaurantreviews.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\recommendedrestaurants.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:recommendedrestaurants.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\restaurantdashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:restaurantdashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\customerprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customerprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\customerordering.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customerordering.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\customercreatepost.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customercreatepost.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\chefviewreviews.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chefviewreviews.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\chefmenu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chefmenu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\adminreviews.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:adminreviews.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\addmenuitem.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:addmenuitem.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\WebForm1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\WebForm1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\recommendedrestaurants.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:recommendedrestaurants.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\CulinaryPursuit\\SQLQuery5.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery5.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\chefmenu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chefmenu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\CulinaryPursuit\\SQLQuery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\adminapproval.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:adminapproval.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\CulinaryPursuit\\buildingeverything.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:buildingeverything.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.MenuItems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.Rewards.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\addmenuitem.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:addmenuitem.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\SQLQuery5.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery5.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\adminapproval.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:adminapproval.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\buildingeverything.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:buildingeverything.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\public.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:public.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\customerprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customerprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\chef.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:chef.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\customer.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CF610B-62C5-4B3C-8B8B-EC820109E941}|CulinaryPursuit.csproj|solutionrelative:customer.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\WebForm1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebForm1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\WebForm1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebForm1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -163,24 +278,11 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddMenuItem.aspx.cs",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\AddMenuItem.aspx.cs",
-              "RelativeDocumentMoniker": "AddMenuItem.aspx.cs",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\AddMenuItem.aspx.cs",
-              "RelativeToolTip": "AddMenuItem.aspx.cs",
-              "ViewState": "AgIAAFwAAACwmZmZmZkjwI8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T15:08:13.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Login.aspx",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\Login.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Login.aspx",
               "RelativeDocumentMoniker": "Login.aspx",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\Login.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Login.aspx",
               "RelativeToolTip": "Login.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -189,313 +291,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer.Master",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\Customer.Master",
-              "RelativeDocumentMoniker": "Customer.Master",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\Customer.Master",
-              "RelativeToolTip": "Customer.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-15T16:24:22.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RestaurantDashboard.aspx",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\RestaurantDashboard.aspx",
-              "RelativeDocumentMoniker": "RestaurantDashboard.aspx",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\RestaurantDashboard.aspx",
-              "RelativeToolTip": "RestaurantDashboard.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-14T14:15:29.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Landing.aspx",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\Landing.aspx",
-              "RelativeDocumentMoniker": "Landing.aspx",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\Landing.aspx",
-              "RelativeToolTip": "Landing.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-11T15:11:47.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ChefMenu.aspx",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\ChefMenu.aspx",
-              "RelativeDocumentMoniker": "ChefMenu.aspx",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\ChefMenu.aspx",
-              "RelativeToolTip": "ChefMenu.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-12-19T14:55:09.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RestaurantDashboard.aspx.cs",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\RestaurantDashboard.aspx.cs",
-              "RelativeDocumentMoniker": "RestaurantDashboard.aspx.cs",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\RestaurantDashboard.aspx.cs",
-              "RelativeToolTip": "RestaurantDashboard.aspx.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwEIAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T14:15:37.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChefRestaurantProfile.aspx.cs",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\ChefRestaurantProfile.aspx.cs",
-              "RelativeDocumentMoniker": "ChefRestaurantProfile.aspx.cs",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\ChefRestaurantProfile.aspx.cs",
-              "RelativeToolTip": "ChefRestaurantProfile.aspx.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T20:14:06.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AdminApproval.aspx",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\AdminApproval.aspx",
-              "RelativeDocumentMoniker": "AdminApproval.aspx",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\AdminApproval.aspx",
-              "RelativeToolTip": "AdminApproval.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-13T14:08:51.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ChefRestaurantProfile.aspx",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\ChefRestaurantProfile.aspx",
-              "RelativeDocumentMoniker": "ChefRestaurantProfile.aspx",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\ChefRestaurantProfile.aspx",
-              "RelativeToolTip": "ChefRestaurantProfile.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-01-03T20:11:24.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddMenuItem.aspx",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\AddMenuItem.aspx",
-              "RelativeDocumentMoniker": "AddMenuItem.aspx",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\AddMenuItem.aspx",
-              "RelativeToolTip": "AddMenuItem.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-12-19T15:08:01.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "chef.Master",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\chef.Master",
-              "RelativeDocumentMoniker": "chef.Master",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\chef.Master",
-              "RelativeToolTip": "chef.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-12-19T15:14:34.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CustomerProfile.aspx.cs",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\CustomerProfile.aspx.cs",
-              "RelativeDocumentMoniker": "CustomerProfile.aspx.cs",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\CustomerProfile.aspx.cs",
-              "RelativeToolTip": "CustomerProfile.aspx.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAIwIwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T16:27:43.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Signup.aspx.cs",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\Signup.aspx.cs",
-              "RelativeDocumentMoniker": "Signup.aspx.cs",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\Signup.aspx.cs",
-              "RelativeToolTip": "Signup.aspx.cs",
-              "ViewState": "AgIAALQAAAAAAAAAAAAowMgAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T15:17:59.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Signup.aspx",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\Signup.aspx",
-              "RelativeDocumentMoniker": "Signup.aspx",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\Signup.aspx",
-              "RelativeToolTip": "Signup.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-12T07:07:39.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "Login.aspx.cs",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\Login.aspx.cs",
-              "RelativeToolTip": "Login.aspx.cs",
-              "ViewState": "AgIAAC0AAAAAZmZmZuYZwA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T07:07:17.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SQLQuery5.sql ",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\SQLQuery5.sql",
-              "RelativeDocumentMoniker": "SQLQuery5.sql",
-              "ToolTip": "SQLQuery5.sql ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-01-03T19:20:41.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAAC4AAAAAzczMzMwnwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-12T07:08:11.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SQLQuery4.sql ",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\SQLQuery4.sql",
-              "RelativeDocumentMoniker": "SQLQuery4.sql",
-              "ToolTip": "SQLQuery4.sql ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-01-03T19:13:19.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "dbo.Customers.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.Customers.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.Customers.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-01-03T18:52:57.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CustomerProfile.aspx",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\CustomerProfile.aspx",
-              "RelativeDocumentMoniker": "CustomerProfile.aspx",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\CustomerProfile.aspx",
-              "RelativeToolTip": "CustomerProfile.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-15T16:25:53.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "public.Master",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\public.Master",
-              "RelativeDocumentMoniker": "public.Master",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\public.Master",
-              "RelativeToolTip": "public.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-11T14:52:17.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "buildingeverything.sql ",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\buildingeverything.sql",
-              "RelativeDocumentMoniker": "buildingeverything.sql",
-              "ToolTip": "buildingeverything.sql ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-01-03T18:10:28.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "chef.Master.cs",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\chef.Master.cs",
-              "RelativeDocumentMoniker": "chef.Master.cs",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\chef.Master.cs",
-              "RelativeToolTip": "chef.Master.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T15:14:55.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ChefMenu.aspx.cs",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\ChefMenu.aspx.cs",
-              "RelativeDocumentMoniker": "ChefMenu.aspx.cs",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\ChefMenu.aspx.cs",
-              "RelativeToolTip": "ChefMenu.aspx.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAwwLkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T14:56:11.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AdminDashboard.aspx.cs",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\AdminDashboard.aspx.cs",
-              "RelativeDocumentMoniker": "AdminDashboard.aspx.cs",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\AdminDashboard.aspx.cs",
-              "RelativeToolTip": "AdminDashboard.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T14:15:00.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
               "Title": "CustomerHome.aspx",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\CustomerHome.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerHome.aspx",
               "RelativeDocumentMoniker": "CustomerHome.aspx",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\CustomerHome.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerHome.aspx",
               "RelativeToolTip": "CustomerHome.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -504,99 +304,784 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AdminLogin.aspx",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\AdminLogin.aspx",
-              "RelativeDocumentMoniker": "AdminLogin.aspx",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\AdminLogin.aspx",
-              "RelativeToolTip": "AdminLogin.aspx",
+              "DocumentIndex": 6,
+              "Title": "GoogleCallBack.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\GoogleCallBack.aspx.cs",
+              "RelativeDocumentMoniker": "GoogleCallBack.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\GoogleCallBack.aspx.cs",
+              "RelativeToolTip": "GoogleCallBack.aspx.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAgwKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T07:05:28.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerHome.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerHome.aspx.cs",
+              "RelativeDocumentMoniker": "CustomerHome.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerHome.aspx.cs",
+              "RelativeToolTip": "CustomerHome.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T02:39:09.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GoogleCallBack.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\GoogleCallBack.aspx",
+              "RelativeDocumentMoniker": "GoogleCallBack.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\GoogleCallBack.aspx",
+              "RelativeToolTip": "GoogleCallBack.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-13T14:08:14.259Z",
+              "WhenOpened": "2026-01-12T07:05:03.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AdminLogin.aspx.cs",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\AdminLogin.aspx.cs",
-              "RelativeDocumentMoniker": "AdminLogin.aspx.cs",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\AdminLogin.aspx.cs",
-              "RelativeToolTip": "AdminLogin.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T14:08:25.228Z",
+              "DocumentIndex": 9,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-12T07:08:11.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "WebForm1.aspx",
-              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\WebForm1.aspx",
-              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\WebForm1.aspx",
+              "DocumentIndex": 4,
+              "Title": "Landing.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Landing.aspx",
+              "RelativeDocumentMoniker": "Landing.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Landing.aspx",
+              "RelativeToolTip": "Landing.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-12-19T10:50:58.999Z"
+              "WhenOpened": "2025-11-11T15:11:47.535Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "WebForm1.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\WebForm1.aspx.cs",
-              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\WebForm1.aspx.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T10:51:12.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 3,
               "Title": "Landing.aspx.cs",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\Landing.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Landing.aspx.cs",
               "RelativeDocumentMoniker": "Landing.aspx.cs",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\Landing.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Landing.aspx.cs",
               "RelativeToolTip": "Landing.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T15:11:55.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AdminApproval.aspx.cs",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\AdminApproval.aspx.cs",
-              "RelativeDocumentMoniker": "AdminApproval.aspx.cs",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\AdminApproval.aspx.cs",
-              "RelativeToolTip": "AdminApproval.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T14:08:59.794Z",
+              "DocumentIndex": 8,
+              "Title": "GoogleLogin.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\GoogleLogin.aspx",
+              "RelativeDocumentMoniker": "GoogleLogin.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\GoogleLogin.aspx",
+              "RelativeToolTip": "GoogleLogin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-12T07:04:17.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Customer.Master.cs",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\Customer.Master.cs",
-              "RelativeDocumentMoniker": "Customer.Master.cs",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\Customer.Master.cs",
-              "RelativeToolTip": "Customer.Master.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "GoogleLogin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\GoogleLogin.aspx.cs",
+              "RelativeDocumentMoniker": "GoogleLogin.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\GoogleLogin.aspx.cs",
+              "RelativeToolTip": "GoogleLogin.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T16:40:31.196Z",
+              "WhenOpened": "2026-01-12T07:04:37.888Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RestaurantDashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\RestaurantDashboard.aspx",
+              "RelativeDocumentMoniker": "RestaurantDashboard.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\RestaurantDashboard.aspx",
+              "RelativeToolTip": "RestaurantDashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-14T14:15:29.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ChefRestaurantProfile.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefRestaurantProfile.aspx.cs",
+              "RelativeDocumentMoniker": "ChefRestaurantProfile.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefRestaurantProfile.aspx.cs",
+              "RelativeToolTip": "ChefRestaurantProfile.aspx.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAgwMcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T20:14:06.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerMyReviews.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerMyReviews.aspx",
+              "RelativeDocumentMoniker": "CustomerMyReviews.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerMyReviews.aspx",
+              "RelativeToolTip": "CustomerMyReviews.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-12T06:19:16.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.Master",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Customer.Master",
+              "RelativeDocumentMoniker": "Customer.Master",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Customer.Master",
+              "RelativeToolTip": "Customer.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-15T16:24:22.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerMyReviews.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerMyReviews.aspx.cs",
+              "RelativeDocumentMoniker": "CustomerMyReviews.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerMyReviews.aspx.cs",
+              "RelativeToolTip": "CustomerMyReviews.aspx.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T06:19:39.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditReview.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\EditReview.aspx",
+              "RelativeDocumentMoniker": "EditReview.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\EditReview.aspx",
+              "RelativeToolTip": "EditReview.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-12T06:20:14.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditReview.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\EditReview.aspx.cs",
+              "RelativeDocumentMoniker": "EditReview.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\EditReview.aspx.cs",
+              "RelativeToolTip": "EditReview.aspx.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T06:20:27.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "dbo.Reviews.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.Reviews.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.Reviews.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-12T05:57:18.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChefReplyReview.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefReplyReview.aspx",
+              "RelativeDocumentMoniker": "ChefReplyReview.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefReplyReview.aspx",
+              "RelativeToolTip": "ChefReplyReview.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-11T17:47:49.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CommunityFeed.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CommunityFeed.aspx.cs",
+              "RelativeDocumentMoniker": "CommunityFeed.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CommunityFeed.aspx.cs",
+              "RelativeToolTip": "CommunityFeed.aspx.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAuwJcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T17:35:36.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChefReplyReview.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefReplyReview.aspx.cs",
+              "RelativeDocumentMoniker": "ChefReplyReview.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefReplyReview.aspx.cs",
+              "RelativeToolTip": "ChefReplyReview.aspx.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAuwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T17:48:02.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChefRestaurantProfile.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefRestaurantProfile.aspx",
+              "RelativeDocumentMoniker": "ChefRestaurantProfile.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefRestaurantProfile.aspx",
+              "RelativeToolTip": "ChefRestaurantProfile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-03T20:11:24.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChefViewReviews.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefViewReviews.aspx",
+              "RelativeDocumentMoniker": "ChefViewReviews.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefViewReviews.aspx",
+              "RelativeToolTip": "ChefViewReviews.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-11T17:48:45.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RestaurantReviews.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\RestaurantReviews.aspx",
+              "RelativeDocumentMoniker": "RestaurantReviews.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\RestaurantReviews.aspx",
+              "RelativeToolTip": "RestaurantReviews.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-11T17:44:13.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "dbo.Restaurants.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.Restaurants.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.Restaurants.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-12T05:39:04.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CommunityFeed.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CommunityFeed.aspx",
+              "RelativeDocumentMoniker": "CommunityFeed.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CommunityFeed.aspx",
+              "RelativeToolTip": "CommunityFeed.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-11T17:35:18.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CustomerCreatePost.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerCreatePost.aspx",
+              "RelativeDocumentMoniker": "CustomerCreatePost.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerCreatePost.aspx",
+              "RelativeToolTip": "CustomerCreatePost.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-11T17:51:10.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "admin.Master",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\admin.Master",
+              "RelativeDocumentMoniker": "admin.Master",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\admin.Master",
+              "RelativeToolTip": "admin.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-12T02:29:50.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AdminViewPosts.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminViewPosts.aspx.cs",
+              "RelativeDocumentMoniker": "AdminViewPosts.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminViewPosts.aspx.cs",
+              "RelativeToolTip": "AdminViewPosts.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T17:46:59.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RestaurantReviews.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\RestaurantReviews.aspx.cs",
+              "RelativeDocumentMoniker": "RestaurantReviews.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\RestaurantReviews.aspx.cs",
+              "RelativeToolTip": "RestaurantReviews.aspx.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T17:44:30.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminViewPosts.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminViewPosts.aspx",
+              "RelativeDocumentMoniker": "AdminViewPosts.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminViewPosts.aspx",
+              "RelativeToolTip": "AdminViewPosts.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-11T17:46:43.219Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
+              "Title": "AdminReviews.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminReviews.aspx",
+              "RelativeDocumentMoniker": "AdminReviews.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminReviews.aspx",
+              "RelativeToolTip": "AdminReviews.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-11T17:45:43.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "chef.Master",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\chef.Master",
+              "RelativeDocumentMoniker": "chef.Master",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\chef.Master",
+              "RelativeToolTip": "chef.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-19T15:14:34.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ReviewPrompt.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ReviewPrompt.aspx",
+              "RelativeDocumentMoniker": "ReviewPrompt.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ReviewPrompt.aspx",
+              "RelativeToolTip": "ReviewPrompt.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-12T03:31:18.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ReviewPrompt.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ReviewPrompt.aspx.cs",
+              "RelativeDocumentMoniker": "ReviewPrompt.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ReviewPrompt.aspx.cs",
+              "RelativeToolTip": "ReviewPrompt.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T03:31:32.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RestaurantReviews.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\RestaurantReviews.aspx.designer.cs",
+              "RelativeDocumentMoniker": "RestaurantReviews.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\RestaurantReviews.aspx.designer.cs",
+              "RelativeToolTip": "RestaurantReviews.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T03:32:19.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CustomerCheckout.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerCheckout.aspx.cs",
+              "RelativeDocumentMoniker": "CustomerCheckout.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerCheckout.aspx.cs",
+              "RelativeToolTip": "CustomerCheckout.aspx.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAAAuwPQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T03:42:10.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RecommendedRestaurants.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\RecommendedRestaurants.aspx",
+              "RelativeDocumentMoniker": "RecommendedRestaurants.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\RecommendedRestaurants.aspx",
+              "RelativeToolTip": "RecommendedRestaurants.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-11T17:52:30.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RestaurantDashboard.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\RestaurantDashboard.aspx.cs",
+              "RelativeDocumentMoniker": "RestaurantDashboard.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\RestaurantDashboard.aspx.cs",
+              "RelativeToolTip": "RestaurantDashboard.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:15:37.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CustomerProfile.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerProfile.aspx.cs",
+              "RelativeDocumentMoniker": "CustomerProfile.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerProfile.aspx.cs",
+              "RelativeToolTip": "CustomerProfile.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T16:27:43.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CustomerOrdering.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerOrdering.aspx",
+              "RelativeDocumentMoniker": "CustomerOrdering.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerOrdering.aspx",
+              "RelativeToolTip": "CustomerOrdering.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-11T17:55:58.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CustomerCreatePost.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerCreatePost.aspx.cs",
+              "RelativeDocumentMoniker": "CustomerCreatePost.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerCreatePost.aspx.cs",
+              "RelativeToolTip": "CustomerCreatePost.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T17:51:34.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ChefViewReviews.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefViewReviews.aspx.cs",
+              "RelativeDocumentMoniker": "ChefViewReviews.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefViewReviews.aspx.cs",
+              "RelativeToolTip": "ChefViewReviews.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T17:48:59.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ChefMenu.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefMenu.aspx.cs",
+              "RelativeDocumentMoniker": "ChefMenu.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefMenu.aspx.cs",
+              "RelativeToolTip": "ChefMenu.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T14:56:11.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AdminReviews.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminReviews.aspx.cs",
+              "RelativeDocumentMoniker": "AdminReviews.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminReviews.aspx.cs",
+              "RelativeToolTip": "AdminReviews.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T17:46:06.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "AdminDashboard.aspx",
-              "DocumentMoniker": "D:\\Github\\CulinaryPursuit\\AdminDashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminDashboard.aspx",
               "RelativeDocumentMoniker": "AdminDashboard.aspx",
-              "ToolTip": "D:\\Github\\CulinaryPursuit\\AdminDashboard.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminDashboard.aspx",
               "RelativeToolTip": "AdminDashboard.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-14T13:49:44.391Z",
+              "WhenOpened": "2025-11-14T13:49:44.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AdminDashboard.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminDashboard.aspx.cs",
+              "RelativeDocumentMoniker": "AdminDashboard.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminDashboard.aspx.cs",
+              "RelativeToolTip": "AdminDashboard.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:15:00.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AddMenuItem.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AddMenuItem.aspx.cs",
+              "RelativeDocumentMoniker": "AddMenuItem.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AddMenuItem.aspx.cs",
+              "RelativeToolTip": "AddMenuItem.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T15:08:13.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RecommendedRestaurants.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\RecommendedRestaurants.aspx.cs",
+              "RelativeDocumentMoniker": "RecommendedRestaurants.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\RecommendedRestaurants.aspx.cs",
+              "RelativeToolTip": "RecommendedRestaurants.aspx.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAgwN4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T17:52:40.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ChefMenu.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefMenu.aspx",
+              "RelativeDocumentMoniker": "ChefMenu.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\ChefMenu.aspx",
+              "RelativeToolTip": "ChefMenu.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-19T14:55:09.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AdminApproval.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminApproval.aspx.cs",
+              "RelativeDocumentMoniker": "AdminApproval.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminApproval.aspx.cs",
+              "RelativeToolTip": "AdminApproval.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T14:08:59.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "dbo.MenuItems.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.MenuItems.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.MenuItems.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-11T15:15:30.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "dbo.Rewards.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.Rewards.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BOYZE_SOURCE_REPOS_CULINARYPURSUIT_APP_DATA_CULINARYPURSUITDB.MDF/True/SqlTable/dbo.Rewards.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-11T15:21:07.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AdminApproval.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminApproval.aspx",
+              "RelativeDocumentMoniker": "AdminApproval.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminApproval.aspx",
+              "RelativeToolTip": "AdminApproval.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-13T14:08:51.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AddMenuItem.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AddMenuItem.aspx",
+              "RelativeDocumentMoniker": "AddMenuItem.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AddMenuItem.aspx",
+              "RelativeToolTip": "AddMenuItem.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-19T15:08:01.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Signup.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Signup.aspx.cs",
+              "RelativeDocumentMoniker": "Signup.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Signup.aspx.cs",
+              "RelativeToolTip": "Signup.aspx.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAowMgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T15:17:59.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Signup.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Signup.aspx",
+              "RelativeDocumentMoniker": "Signup.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Signup.aspx",
+              "RelativeToolTip": "Signup.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-12T07:07:39.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SQLQuery5.sql",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\SQLQuery5.sql",
+              "RelativeDocumentMoniker": "SQLQuery5.sql",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\SQLQuery5.sql",
+              "RelativeToolTip": "SQLQuery5.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-03T19:20:41.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "CustomerProfile.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerProfile.aspx",
+              "RelativeDocumentMoniker": "CustomerProfile.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\CustomerProfile.aspx",
+              "RelativeToolTip": "CustomerProfile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-15T16:25:53.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "public.Master",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\public.Master",
+              "RelativeDocumentMoniker": "public.Master",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\public.Master",
+              "RelativeToolTip": "public.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-11T14:52:17.501Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "buildingeverything.sql",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\buildingeverything.sql",
+              "RelativeDocumentMoniker": "buildingeverything.sql",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\buildingeverything.sql",
+              "RelativeToolTip": "buildingeverything.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-03T18:10:28.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "chef.Master.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\chef.Master.cs",
+              "RelativeDocumentMoniker": "chef.Master.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\chef.Master.cs",
+              "RelativeToolTip": "chef.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T15:14:55.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "AdminLogin.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminLogin.aspx",
+              "RelativeDocumentMoniker": "AdminLogin.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminLogin.aspx",
+              "RelativeToolTip": "AdminLogin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-13T14:08:14.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AdminLogin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminLogin.aspx.cs",
+              "RelativeDocumentMoniker": "AdminLogin.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\AdminLogin.aspx.cs",
+              "RelativeToolTip": "AdminLogin.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T14:08:25.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "WebForm1.aspx",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\WebForm1.aspx",
+              "RelativeToolTip": "WebForm1.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-19T10:50:58.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "WebForm1.aspx.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\WebForm1.aspx.cs",
+              "RelativeToolTip": "WebForm1.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T10:51:12.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Customer.Master.cs",
+              "DocumentMoniker": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Customer.Master.cs",
+              "RelativeDocumentMoniker": "Customer.Master.cs",
+              "ToolTip": "C:\\Users\\boyze\\source\\repos\\CulinaryPursuit\\Customer.Master.cs",
+              "RelativeToolTip": "Customer.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T16:40:31.196Z"
             }
           ]
         }

@@ -69,13 +69,13 @@ namespace CulinaryPursuit
         protected global::System.Web.UI.WebControls.TextBox txtPhone;
 
         /// <summary>
-        /// txtOpeningHours control.
+        /// rptOpeningHours control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtOpeningHours;
+        protected global::System.Web.UI.WebControls.Repeater rptOpeningHours;
 
         /// <summary>
         /// txtAddress control.

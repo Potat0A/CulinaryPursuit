@@ -184,6 +184,51 @@
             transform: translateY(-50%);
             color: #999;
         }
+
+        .recommend-section {
+            margin: 80px 0 40px;
+            text-align: center;
+            padding: 50px 30px;
+            border-radius: 30px;
+            background: linear-gradient(135deg, #fff5ee, #fff);
+            box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+        }
+
+        .recommend-title {
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: #ff3c00;
+            margin-bottom: 15px;
+        }
+
+        .recommend-text {
+            color: #666;
+            font-size: 1.05rem;
+            max-width: 650px;
+            margin: 0 auto 30px;
+        }
+
+        .btn-recommend {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px 36px;
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: white;
+            background: linear-gradient(135deg, #ff3c00, #ff9a3c);
+            border-radius: 40px;
+            text-decoration: none;
+            box-shadow: 0 10px 30px rgba(255,60,0,0.45);
+            transition: all 0.35s ease;
+        }
+
+        .btn-recommend:hover {
+            transform: translateY(-4px) scale(1.05);
+            box-shadow: 0 18px 45px rgba(255,60,0,0.6);
+            color: white;
+        }
+
     </style>
 
     <!-- FLOATING CART BUTTON -->
@@ -274,5 +319,19 @@
                 <p>Try adjusting your filters or search terms</p>
             </div>
         </asp:Panel>
+
+        <!-- PERSONALIZED RECOMMENDATIONS CTA -->
+        <div class="recommend-section">
+            <h2 class="recommend-title">✨ Not sure what to eat?</h2>
+            <p class="recommend-text">
+                Let us recommend restaurants and dishes just for you based on your preferences,
+                past orders, and trending favourites.
+            </p>
+
+            <a href="RecommendedRestaurants.aspx" class="btn-recommend">
+                🎯 Find Restaurants For Me
+            </a>
+        </div>
+
     </div>
 </asp:Content>

@@ -3,6 +3,7 @@ using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace CulinaryPursuit
 {
@@ -213,5 +214,22 @@ VALUES
             msg = msg.Replace("\\", "\\\\").Replace("'", "\\'").Replace("\r", "").Replace("\n", "");
             ScriptManager.RegisterStartupScript(this, GetType(), "alert", $"alert('{msg}');", true);
         }
+
+        protected void ValidatePhoneLength(object source, ServerValidateEventArgs args)
+        {
+            if (string.IsNullOrWhiteSpace(args.Value))
+            {
+                args.IsValid = true; // RequiredFieldValidator handles empty
+                return;
+            }
+
+            // Remove leading +
+            string digitsOnly = args.Value.StartsWith("+")
+                ? args.Value.Substring(1)
+                : args.Value;
+
+            args.IsValid = digitsOnly.Length >= 7 && digitsOnly.Length <= 15;
+        }
+
     }
 }

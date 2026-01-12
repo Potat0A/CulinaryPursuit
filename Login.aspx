@@ -536,8 +536,11 @@
         }
 
         function socialLogin(provider) {
-            alert(`${provider} login coming soon!`);
+            if (provider === 'google') {
+                window.location.href = 'GoogleLogin.aspx';
+            }
         }
+
 
         // Clear errors on input
         document.addEventListener('DOMContentLoaded', () => {

@@ -17,10 +17,10 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort />
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
-    <IISExpressUseClassicPipelineMode />
+    <IISExpressSSLPort>63372</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -132,10 +132,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminReviews.aspx" />
+    <Content Include="AdminViewPosts.aspx" />
     <Content Include="App_Data\CulinaryPursuitDB.mdf" />
     <Content Include="App_Data\CulinaryPursuitDB_log.ldf">
       <DependentUpon>CulinaryPursuitDB.mdf</DependentUpon>
     </Content>
+    <Content Include="ChefReplyReview.aspx" />
     <Content Include="ChefRestaurantProfile.aspx" />
     <Content Include="AddMenuItem.aspx" />
     <Content Include="AdminAnalytics.aspx" />
@@ -144,12 +147,22 @@
     <Content Include="AdminLogin.aspx" />
     <Content Include="AdminPlatformFees.aspx" />
     <Content Include="ChefMenu.aspx" />
+    <Content Include="ChefViewReviews.aspx" />
+    <Content Include="CommunityFeed.aspx" />
     <Content Include="CustomerCheckout.aspx" />
+    <Content Include="CustomerCreatePost.aspx" />
     <Content Include="CustomerHome.aspx" />
+    <Content Include="CustomerMyReviews.aspx" />
     <Content Include="CustomerOrdering.aspx" />
     <Content Include="CustomerProfile.aspx" />
+    <Content Include="EditReview.aspx" />
+    <Content Include="GoogleCallBack.aspx" />
+    <Content Include="GoogleLogin.aspx" />
     <Content Include="PlatformFeePayment.aspx" />
+    <Content Include="RecommendedRestaurants.aspx" />
     <Content Include="RestaurantDashboard.aspx" />
+    <Content Include="RestaurantReviews.aspx" />
+    <Content Include="ReviewPrompt.aspx" />
     <Content Include="SellerAnalytics.aspx" />
     <Content Include="Landing.aspx" />
     <Content Include="Login.aspx" />
@@ -166,6 +179,27 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminReviews.aspx.cs">
+      <DependentUpon>AdminReviews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminReviews.aspx.designer.cs">
+      <DependentUpon>AdminReviews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewPosts.aspx.cs">
+      <DependentUpon>AdminViewPosts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminViewPosts.aspx.designer.cs">
+      <DependentUpon>AdminViewPosts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChefReplyReview.aspx.cs">
+      <DependentUpon>ChefReplyReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChefReplyReview.aspx.designer.cs">
+      <DependentUpon>ChefReplyReview.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ChefRestaurantProfile.aspx.cs">
       <DependentUpon>ChefRestaurantProfile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -236,6 +270,20 @@
     <Compile Include="ChefMenu.aspx.designer.cs">
       <DependentUpon>ChefMenu.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ChefViewReviews.aspx.cs">
+      <DependentUpon>ChefViewReviews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChefViewReviews.aspx.designer.cs">
+      <DependentUpon>ChefViewReviews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CommunityFeed.aspx.cs">
+      <DependentUpon>CommunityFeed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommunityFeed.aspx.designer.cs">
+      <DependentUpon>CommunityFeed.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CustomerCheckout.aspx.cs">
       <DependentUpon>CustomerCheckout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -250,12 +298,26 @@
     <Compile Include="Customer.Master.designer.cs">
       <DependentUpon>Customer.Master</DependentUpon>
     </Compile>
+    <Compile Include="CustomerCreatePost.aspx.cs">
+      <DependentUpon>CustomerCreatePost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerCreatePost.aspx.designer.cs">
+      <DependentUpon>CustomerCreatePost.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CustomerHome.aspx.cs">
       <DependentUpon>CustomerHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CustomerHome.aspx.designer.cs">
       <DependentUpon>CustomerHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerMyReviews.aspx.cs">
+      <DependentUpon>CustomerMyReviews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerMyReviews.aspx.designer.cs">
+      <DependentUpon>CustomerMyReviews.aspx</DependentUpon>
     </Compile>
     <Compile Include="CustomerOrdering.aspx.cs">
       <DependentUpon>CustomerOrdering.aspx</DependentUpon>
@@ -271,12 +333,40 @@
     <Compile Include="CustomerProfile.aspx.designer.cs">
       <DependentUpon>CustomerProfile.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EditReview.aspx.cs">
+      <DependentUpon>EditReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditReview.aspx.designer.cs">
+      <DependentUpon>EditReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleCallBack.aspx.cs">
+      <DependentUpon>GoogleCallBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoogleCallBack.aspx.designer.cs">
+      <DependentUpon>GoogleCallBack.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleLogin.aspx.cs">
+      <DependentUpon>GoogleLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoogleLogin.aspx.designer.cs">
+      <DependentUpon>GoogleLogin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PlatformFeePayment.aspx.cs">
       <DependentUpon>PlatformFeePayment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PlatformFeePayment.aspx.designer.cs">
       <DependentUpon>PlatformFeePayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RecommendedRestaurants.aspx.cs">
+      <DependentUpon>RecommendedRestaurants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RecommendedRestaurants.aspx.designer.cs">
+      <DependentUpon>RecommendedRestaurants.aspx</DependentUpon>
     </Compile>
     <Compile Include="RestaurantDashboard.aspx.cs">
       <DependentUpon>RestaurantDashboard.aspx</DependentUpon>
@@ -313,6 +403,20 @@
     </Compile>
     <Compile Include="public.Master.designer.cs">
       <DependentUpon>public.Master</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantReviews.aspx.cs">
+      <DependentUpon>RestaurantReviews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RestaurantReviews.aspx.designer.cs">
+      <DependentUpon>RestaurantReviews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewPrompt.aspx.cs">
+      <DependentUpon>ReviewPrompt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReviewPrompt.aspx.designer.cs">
+      <DependentUpon>ReviewPrompt.aspx</DependentUpon>
     </Compile>
     <Compile Include="Signup.aspx.cs">
       <DependentUpon>Signup.aspx</DependentUpon>
@@ -413,7 +517,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>63372</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:63372/</IISUrl>
+          <IISUrl>https://localhost:44321/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

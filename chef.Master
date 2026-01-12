@@ -85,7 +85,7 @@
         <a href="SellerAnalytics.aspx">&#128202; Analytics</a>
         <a href="PlatformFeePayment.aspx">&#128176; Platform Fees</a>
         <a href="ChefChat.aspx">💬 Messages</a>
-
+        <a href="ChefViewReviews.aspx">&#9997; Reviews</a>
         <hr style="opacity:0.3;" />
 
         <asp:LinkButton ID="btnLogout" runat="server"

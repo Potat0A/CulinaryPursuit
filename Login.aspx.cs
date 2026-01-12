@@ -82,12 +82,6 @@ namespace CulinaryPursuit
                 return;
             }
 
-            // Optional: block unapproved restaurants
-            // if (!string.Equals(result.Value.ApprovalStatus, "Approved", StringComparison.OrdinalIgnoreCase))
-            // {
-            //     ShowError("restaurantError", "restaurantErrorText", $"Your account is {result.Value.ApprovalStatus}.");
-            //     return;
-            // }
 
             Session["UserID"] = result.Value.UserID;
             Session["UserType"] = "Restaurant";
@@ -99,10 +93,6 @@ namespace CulinaryPursuit
             Context.ApplicationInstance.CompleteRequest();
         }
 
-        /// <summary>
-        /// Authenticates a user against dbo.Users and joins the correct profile table.
-        /// Returns null if invalid credentials / inactive user / missing profile.
-        /// </summary>
         private AuthResult? AuthenticateUser(string email, string password, string userType)
         {
             string connStr = ConfigurationManager.ConnectionStrings["CulinaryPursuitDB"].ConnectionString;
@@ -122,6 +112,7 @@ FROM dbo.Users u
 INNER JOIN dbo.Customers c ON u.UserID = c.UserID
 WHERE u.Email = @Email
   AND u.PasswordHash = @PasswordHash
+  AND AuthProvider = 'Local'
   AND u.UserType = N'Customer'
   AND u.IsActive = 1;
 ";

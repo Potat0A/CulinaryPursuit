@@ -171,6 +171,9 @@
                             <a class="nav-link" href="MyOrders.aspx">&#128230; My Orders</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="CommunityFeed.aspx">&#128226; Community Feed</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="Rewards.aspx">&#127942; Rewards</a>
                         </li>
                         <li class="nav-item dropdown">
@@ -179,7 +182,7 @@
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end">
                                 <li><a class="dropdown-item" href="CustomerProfile.aspx">&#128100; My Profile</a></li>
-                                <li><a class="dropdown-item" href="Favorites.aspx">&#10084; Favorites</a></li>
+                                <li><a class="dropdown-item" href="CustomerMyReviews.aspx">&#10084; My Reviews</a></li>
                                 <li><a class="dropdown-item" href="Rewards.aspx">&#127942; Rewards</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><asp:LinkButton ID="btnLogout" runat="server" CssClass="dropdown-item" OnClick="btnLogout_Click">&#128682; Logout</asp:LinkButton></li>
