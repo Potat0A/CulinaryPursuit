@@ -149,6 +149,7 @@
     <Content Include="ChefMenu.aspx" />
     <Content Include="ChefViewReviews.aspx" />
     <Content Include="CommunityFeed.aspx" />
+    <Content Include="Contact.aspx" />
     <Content Include="CustomerCheckout.aspx" />
     <Content Include="CustomerCreatePost.aspx" />
     <Content Include="CustomerHome.aspx" />
@@ -156,6 +157,7 @@
     <Content Include="CustomerOrdering.aspx" />
     <Content Include="CustomerProfile.aspx" />
     <Content Include="EditReview.aspx" />
+    <Content Include="Features.aspx" />
     <Content Include="GoogleCallBack.aspx" />
     <Content Include="GoogleLogin.aspx" />
     <Content Include="PlatformFeePayment.aspx" />
@@ -284,6 +286,13 @@
     <Compile Include="CommunityFeed.aspx.designer.cs">
       <DependentUpon>CommunityFeed.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CustomerCheckout.aspx.cs">
       <DependentUpon>CustomerCheckout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -339,6 +348,13 @@
     </Compile>
     <Compile Include="EditReview.aspx.designer.cs">
       <DependentUpon>EditReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Features.aspx.cs">
+      <DependentUpon>Features.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Features.aspx.designer.cs">
+      <DependentUpon>Features.aspx</DependentUpon>
     </Compile>
     <Compile Include="GoogleCallBack.aspx.cs">
       <DependentUpon>GoogleCallBack.aspx</DependentUpon>

@@ -1,4 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Customer.Master" AutoEventWireup="true" CodeBehind="CommunityFeed.aspx.cs" Inherits="CulinaryPursuit.CommunityFeed" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Customer.Master"
+    AutoEventWireup="true" CodeBehind="CommunityFeed.aspx.cs"
+    Inherits="CulinaryPursuit.CommunityFeed" %>
 
 <asp:Content ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -38,14 +40,11 @@
 
                 <hr />
 
-                <!-- Collapsible Comments -->
+                <!-- Comments Toggle -->
                 <p>
-                    <a class="btn btn-sm btn-outline-secondary" 
+                    <a class="btn btn-sm btn-outline-secondary"
                        data-bs-toggle="collapse"
-                       href='#comments<%# Eval("PostID") %>'
-                       role="button"
-                       aria-expanded="false"
-                       aria-controls='comments<%# Eval("PostID") %>'>
+                       href='#comments<%# Eval("PostID") %>'>
                         Show Comments (<%# GetCommentCount(Eval("Comments")) %>)
                     </a>
                 </p>
@@ -75,18 +74,20 @@
                     CommandArgument='<%# Eval("PostID") %>'
                     Text="Comment"
                     CssClass="btn btn-sm btn-primary" />
-                
-                <div class="text-center my-4">
-                    <asp:Button
-                        ID="btnAddPost"
-                        runat="server"
-                        Text="➕ Add a New Post"
-                        CssClass="btn btn-lg btn-primary"
-                        OnClick="btnAddPost_Click" />
-                </div>
+
             </div>
         </div>
     </ItemTemplate>
 </asp:Repeater>
+
+<!-- ✅ SINGLE Add Post Button at the bottom -->
+<div class="text-center my-5">
+    <asp:Button
+        ID="btnAddPost"
+        runat="server"
+        Text="➕ Add a New Post"
+        CssClass="btn btn-lg btn-primary"
+        OnClick="btnAddPost_Click" />
+</div>
 
 </asp:Content>
